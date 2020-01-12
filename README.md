@@ -31,25 +31,25 @@ OPENCV_EXTRA_MODULES_PATH = (opencv ontribs path)
 cmake.exe --build . --config Release --target INSTALL
 ```
 
-3. Add folders to the root project dir
+3. Add folders to the UE root project dir
 ```c++
 ThirdParty\OpenCV\include
 ThirdParty\OpenCV\libs
 Binaries\Win64
 ```
 
-4. Move files from OpenCV directory
+4. Move files from OpenCV directory to the UE project directory
 ```c++
 build\install\include\ -> ThirdParty\OpenCV\include
 build\install\x64\vc16\staticlib\ -> ThirdParty\OpenCV\libs
 ```
 
-5. Donwload 
+5. Donwload config files
 * [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) - all the objects for which the model was trained.
 * [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) - pre-trained weights.
 * [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names) - configuration file.
 
-6. Move these files to the 
+6. Move these files to the UE project directory
 ```c++
 Binaries\Win64
 ```
