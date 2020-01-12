@@ -31,7 +31,7 @@ OPENCV_EXTRA_MODULES_PATH = (opencv ontribs path)
 cmake.exe --build . --config Release --target INSTALL
 ```
 
-3. Add folders to the UE root project dir
+3. Add folders to the UE root project directory
 ```c++
 ThirdParty\OpenCV\include
 ThirdParty\OpenCV\libs
