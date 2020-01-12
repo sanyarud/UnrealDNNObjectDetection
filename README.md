@@ -1,4 +1,5 @@
 # Unreal DNN Object Detection
+[![Unreal DNN](http://pic.20secondstosun.com/coverunrealdnn.png)](https://www.youtube.com/watch?v=nMUEpjb18Gc)
 
 ## Installation
 1. [Install CUDA](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html#installing-cuda-development-tools)
