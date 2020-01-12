@@ -1,4 +1,10 @@
 # Unreal DNN Object Detection
+Unreal Engine integration of object detection algorithm [YOLOv3](https://pjreddie.com/darknet/yolo/).
+
+OpenCV (version > 3.4.2) allows you to use YOLOv3 models in your own application.
+
+With CUDA(cudnn) you can accelerate object detection with GPU power.
+
 [![Unreal DNN](http://pic.20secondstosun.com/coverunrealdnn.png)](https://www.youtube.com/watch?v=nMUEpjb18Gc)
 
 ## Installation
@@ -38,7 +44,10 @@ build\install\include\ -> ThirdParty\OpenCV\include
 build\install\x64\vc16\staticlib\ -> ThirdParty\OpenCV\libs
 ```
 
-5. Donwload [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg), [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights), [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
+5. Donwload 
+* [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) - all the objects for which the model was trained.
+* [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) - pre-trained weights.
+* [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names) - configuration file.
 
 6. Move these files to the 
 ```c++
